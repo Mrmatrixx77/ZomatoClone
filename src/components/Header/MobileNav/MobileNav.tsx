@@ -10,9 +10,9 @@ interface menuProps{
 
 const MobileNav = ({onClick} : menuProps) => {
   return (
-    <div className="mobilenavContainer h-screen bg-white w-screen absolute top-0 left-0  ">
-        <div className="mobileheader m-auto flex justify-between items-center border-red-50  pt-[1rem] pl-2 ">
-        <img src={close} alt="closeImg" className='h-7 p-0'  onClick={onClick} />
+    <div className="mobilenavContainer h-screen bg-white w-screen absolute top-0 left-0 ">
+        <div className="mobileheader flex justify-between items-center border pt-[1rem] ">
+        <img src={close} alt="closeImg" className='h-8 p-0'  onClick={onClick} />
         <img src={logo} alt="navlogo" className='w-40' />
         </div>
         <div className="links text-black mt-12 text-xl font-light flex flex-col gap-8 justify-start m-auto ml-12   ">
