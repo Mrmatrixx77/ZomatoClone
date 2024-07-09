@@ -1,5 +1,5 @@
 // import smartphone from "../../../assets/smartphone.png";
-import menu from "../../../assets/menu.png";
+import menu from "../../../assets/menunew.png";
 import { useState } from "react";
 import MobileNav from "../MobileNav/MobileNav";
 import Headercenter from "../HeaderCenter/Headercenter";
@@ -26,15 +26,13 @@ const Navbar = () => {
         </div>
         <div className="right flex items-center justify-between text-xl font-light gap-10 ">
           <div className="cursor-pointer">Investor Relations</div>
-          <div className="cursor-pointer">Add Reatraunt</div>
-          {/* <div className="cursor-pointer">Log In</div> */}
-          {/* <div className="cursor-pointer"><SignUp/></div> */}
-          <Lofgin/>
-          <SignUp/>
+          <Link to="/partner-with-us">Add Restraunt</Link>
+          <Lofgin />
+          <SignUp />
         </div>
       </div>
       {/*        MOBILE NAVBAR         */}
-      <div className="block md:hidden h-full w-4/5 m-auto py-10 text-white">
+      <div className="block md:hidden relative h-full pt-[1rem] pl-2 text-white">
         {menuState === true ? (
           <img
             src={menu}
@@ -46,8 +44,8 @@ const Navbar = () => {
           <MobileNav onClick={handleMenu} />
         )}
       </div>
-      <Headercenter/>
-      
+      <Headercenter />
+
     </div>
   );
 };

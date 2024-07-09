@@ -12,6 +12,10 @@ const PopularCities = () => {
             <Pupularcitycard place="Rajouri" Count="46"/>
             <Pupularcitycard place="Rohini" Count="100"/>
             <Pupularcitycard place="Falana" Count="451"/>
+            <Pupularcitycard place="Falana" Count="451"/>
+            <Pupularcitycard place="Falana" Count="451"/>
+            <Pupularcitycard place="Falana" Count="451"/>
+
             {/* <Pupularcitycard place="Vagera" Count="420"/> */}
             <Pupularcitycard place="see more" Count=">"/>
 

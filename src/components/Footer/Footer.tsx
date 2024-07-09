@@ -9,7 +9,7 @@ import Gstore from "../../assets/playstore.png";
 
 const Footer = () => {
   return (
-    <div className="container w-[100%] h-auto bg-[#F8F8F8] md:px-[2rem] md:py-[4rem]">
+    <div className="container w-[100%] h-auto bg-[#F8F8F8] md:px-[2rem] md:py-[4rem] mt-[5rem]">
       <div className="innercontainer w-[100%] md:w-[70%] mx-auto flex flex-col gap-3 ">
         <div className="top w-[100%] mb-5 flex flex-col md:flex-row gap-4  justify-between">
           <div className="w-[9.3rem] h-[2rem] text-[2rem] font-[600]">

@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import GetApp from "./Pages/GetApp/GetApp";
+import AddRestraunt from "./Pages/AddRestraunt/AddRestraunt";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<LandingPage/>} />
         <Route path="/getapp" element={<GetApp/>}/>
+        <Route path="partner-with-us" element={<AddRestraunt/>}/>
       </Routes>
     </div>
   );
